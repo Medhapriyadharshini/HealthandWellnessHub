@@ -1,0 +1,77 @@
+.btnWheel {
+    border-radius: 30px;
+    border-color: white;
+    margin-top: 50px;
+    font-size: 23px;
+    color: white;
+    padding: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+    background-color: #44436c;
+    transition: border-color;
+}
+
+.btnWheel:hover {
+    color: #44436c;
+    background-color: aliceblue;
+}
+.btn1{
+    border-color: white;
+     font-size: 23px;
+      color: white; 
+      padding: 10px;
+       padding-left: 30px;
+        padding-right: 30px; 
+         background-color: #58578B;
+          transition: border-color;
+          margin-left: 250px;
+}
+.btn1:hover{
+    color: #44436c;
+    background-color: aliceblue;
+}
+
+.btn2{
+    border-color: white;
+     font-size: 23px;
+      color: white; 
+      padding: 10px;
+       padding-left: 30px;
+        padding-right: 30px; 
+         background-color: #58578B;
+          transition: border-color;
+}
+.btn2:hover{
+    color: #44436c;
+    background-color: aliceblue;
+}
+
+@keyframes spin{
+    from{
+        transform: scale(0.1)rotate(-800deg);
+    }
+    to{
+        transform: scale(1) rotate(0deg);
+    }
+}
+h3,p{
+    animation-duration: 2s;
+    animation-name: slidein,fade;
+}
+@keyframes slidein{
+    from{
+        margin-top: 600px;
+    }
+    to{
+        margin-top: 0px;
+    }
+}
+@keyframes fade{
+    from{
+        opacity: 0;
+    }
+    to{
+        opacity: 1;
+    }
+
+}
